@@ -1,0 +1,17 @@
+dc1.cyberinabox.net — SSH MFA Emergency Scratch Codes
+Generated: 2026-02-21
+Account: dshannon@dc1.cyberinabox.net
+TOTP Issuer: dc1.cyberinabox.net
+
+EMERGENCY SCRATCH CODES (single-use — store in KeePass and delete this file):
+  38725726
+  45506750
+  27189977
+  90403358
+  86351943
+
+Use any of these codes in place of the 6-digit TOTP if you lose access
+to Microsoft Authenticator. Each code works exactly once.
+
+To regenerate scratch codes (requires current OTP to SSH in first):
+  sudo -u dshannon google-authenticator --force (run on dc1 as root, or as dshannon)
